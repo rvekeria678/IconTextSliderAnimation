@@ -38,10 +38,11 @@ body, html {
 }
 .rise {
     opacity: 1 !important;
-    height: 100% !important;
+    transform: translateY(-100%) !important;
     transition: 2s !important;
 }
 .sink {
-    opacity: 0;
+    opacity: 0 !important;
+    transform: translateY(0) !important;
     transition: 2s !important;
 }
