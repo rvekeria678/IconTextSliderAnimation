@@ -13,22 +13,18 @@ body, html {
 }
 #paragraph {
     position: absolute;
-    height: 200px;
-    width: 93%;
+    height: 210px;
+    width: 90%;
     text-align: center;
     bottom: 0;
-    font-size: 19px;
+    font-size: 18px;
     border: 1px black solid;
     background-color: white;
     border-radius: 5px;
-}
-#icon-wrapper {
-    width: 200px;
-    height: 200px;
+    padding: 4px;
 }
 #icon-sample {
     background: white;
-    padding: 0px;
     height: 200px;
     width: 200px;
     object-fit: cover;
